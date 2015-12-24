@@ -90,9 +90,10 @@ body{
   #main{
     background-image: url('images/coffee1-medium_medium.jpg');
     font-size: 2em;
+    height: 50vh;
   }
   #about{
     background-image: url('images/coffee2-medium_medium.jpg');
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
