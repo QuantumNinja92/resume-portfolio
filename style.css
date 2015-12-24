@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  width: 100vw;
+}
+#main{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+/* LANDSCAPE ORIENTATION */ /* Large */
+@media screen and (min-width: 901px) and (orientation: landscape) {
+  #main{
+    background-image: url('images/coffee1-large_large.jpg');
+  }
+}
+
+/* LANDSCAPE ORIENTATION */ /* Medium */
+@media screen and (min-width: 371px) and (max-width: 900px) and (orientation: landscape)  {
+  #main{
+    background-image: url('images/coffee1-medium_medium.jpg');
+  }
+}
+
+/* LANDSCAPE ORIENTATION */ /* Small */
+@media screen and (max-width: 370px) and (orientation: landscape)  {
+  #main{
+    background-image: url('images/coffee1-small_small.jpg');
+  }
+}
+
+/* PORTRAIT ORIENTATION */ /* Large */
+@media screen and (min-width: 901px) and (orientation: portrait) {
+  #main{
+    background-image: url('images/coffee1-large_large.jpg');
+  }
+}
+
+/* PORTRAIT ORIENTATION */ /* Medium */
+@media screen and (min-width: 371px) and (max-width: 900px) and (orientation: portrait)  {
+  #main{
+    background-image: url('images/coffee1-medium_medium.jpg');
+  }
+}
+
+/* PORTRAIT ORIENTATION */ /* Small */
+@media screen and (max-width: 370px) and (orientation: portrait)  {
+  #main{
+    background-image: url('images/coffee1-small_small.jpg');
+  }
+}
