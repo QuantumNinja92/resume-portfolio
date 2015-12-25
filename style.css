@@ -34,6 +34,7 @@ body{
   #about{
     background-image: url('images/coffee2-large_large.jpg');
     font-size: 3em;
+    height: 150vh;
   }
 }
 
