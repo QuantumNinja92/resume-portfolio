@@ -24,6 +24,13 @@ body{
   color: #050A0E;
   	text-shadow: 1px 1px #3D3532;
 }
+#contact{
+  width: 100%;
+}
+#contact a{
+  text-decoration: none;
+  color: inherit;
+}
 /* Experimental Section for the Projects */
 #projects{
   background-image: url('images/coffee3-large_large.jpg');
@@ -100,10 +107,25 @@ body{
     font-size: 3em;
     height: 150vh;
   }
-  #projects{
+  #contact{
+      height: 100vh;
+    background-image: url('images/coffee4-large_large.jpg');
   }
-  .project{
-
+  #contact a{
+    font-size: 5em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 50vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 4em;
   }
 }
 
@@ -118,6 +140,27 @@ body{
     font-size: 1.8em;
     height: 130vh;
   }
+  #contact{
+      height: 100vh;
+      background-size: cover;
+    background-image: url('images/coffee4-medium_medium.jpg');
+  }
+  #contact a{
+    font-size: 2em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 50vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 2em;
+  }
 }
 
 /* LANDSCAPE ORIENTATION */ /* Small */
@@ -129,6 +172,26 @@ body{
   #about{
     background-image: url('images/coffee2-medium_medium.jpg');
     font-size: 1.3em;
+  }
+  #contact{
+      height: 100vh;
+    background-image: url('images/coffee4-medium_medium.jpg');
+  }
+  #contact a{
+    font-size: 6em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 50vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 5em;
   }
 }
 
@@ -142,6 +205,26 @@ body{
     background-image: url('images/coffee2-large_large.jpg');
     font-size: 3em;
   }
+  #contact{
+      height: 100vh;
+    background-image: url('images/coffee4-large_large.jpg');
+  }
+  #contact a{
+    font-size: 6em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 50vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 5em;
+  }
 }
 
 /* PORTRAIT ORIENTATION */ /* Medium */
@@ -153,6 +236,27 @@ body{
   #about{
     background-image: url('images/coffee2-medium_medium.jpg');
     font-size: 2em;
+  }
+  #contact{
+      height: 80vh;
+      background-size: cover;
+    background-image: url('images/coffee4-medium_medium.jpg');
+  }
+  #contact a{
+    font-size: 3em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 30vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 3em;
   }
 }
 
@@ -166,6 +270,27 @@ body{
   #about{
     background-image: url('images/coffee2-medium_medium.jpg');
     font-size: 1.5em;
+  }
+  #contact{
+      height: 90vh;
+    background-image: url('images/coffee4-medium_medium.jpg');
+    background-size: contain;
+  }
+  #contact a{
+    font-size: 3em;
+    color: #36251D;
+    margin-left: 10%;
+  }
+  #contacts{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    width: 50vw;
+  }
+  #me{
+    padding-top: 5%;
+    color: #735644;
+    font-size: 2em;
   }
 }
 
